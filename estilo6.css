@@ -1,0 +1,92 @@
+*{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #3fb276;
+  text-align: center;
+}
+.titulo{
+    padding: 40px;
+}
+/* Encabezado */
+header {
+  background-color: #181717;
+  color: rgb(50, 8, 201);
+  padding: 20px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: rgb(219, 13, 13);
+  text-decoration: none;
+}
+nav ul a:hover{
+background-color: white;
+}
+.padre{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.padre .hijo{
+    width: 70%;
+    margin: auto;
+}
+.padre .hijo div{
+    width: 80%;
+    padding: 15px;
+    background-color: rgb(45, 94, 123);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.padre .hijo img{
+    width: 80%;
+    border-radius: 15px;
+}
+.padre .tecnologia{
+    width: 30%;
+}
+.padre .tecnologia p{
+    background-color: rgb(241, 244, 242);
+    border-radius: 15px;
+    padding: 10px;
+    height: 500px;
+}
+footer{   
+    margin: 100px;
+}
+footer p{
+    padding: 100px;
+}
+header h1{
+    font-size: 40px;
+    color: brown;
+}
+header h1{
+    font-size: 30px;
+    color: brown;
+}
+h2{
+    font-size: 30px;
+    color: brown;
+}
+ .tecnologia p{
+    font-size: 25px;
+color: blueviolet;
+text-align: justify;
+}
+footer p{
+    background-color: #060606;
+    color: #120af7;
+    padding: 1px;
+    margin: 10px;
+     text-align: justify;
+}
